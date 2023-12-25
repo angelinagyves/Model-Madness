@@ -173,7 +173,7 @@ Results from the notebook:
 
 The Naive Bayes model had a precision of 0.92, a recall of 0.90, and an F1-Score of 0.91.
 
-##Neural Network (MLP)
+## Neural Network (MLP)
 
 A neural network is a deep learning model composed of interconnected layers of neurons.
 
@@ -197,7 +197,7 @@ Results from notebook:
 
 The neural network had a precision of 0.97, a recall of 0.97, and an F1-score of 0.97.
 
-##AdaBoost
+## AdaBoost
 
 AdaBoost classifiers are ensemble learning models that combine multiple weak learners to make a strong one (typically shallow decision trees).
 
@@ -219,7 +219,7 @@ Resutls from notebook:
     
     AUC Score: 0.9961787184009406
 
-##XGBoost
+## XGBoost
 
 The XGBoost classifier is an optimized gradient boosting library that is especially known for speed, efficiency and performance.
 
