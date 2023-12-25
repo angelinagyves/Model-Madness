@@ -11,72 +11,69 @@ Logistic Regression is a machine learning model that utilizes binary classificat
 
 Results from the notebook:
 
-  Model: Logistic Regression
-  
-  Confusion Matrix:
-  [[ 62   1]
-   [  2 106]]
-  
-  
-  Classification Report:
-                precision    recall  f1-score   support
-  
-             0       0.97      0.98      0.98        63
-             1       0.99      0.98      0.99       108
-  
-      accuracy                           0.98       171
-     macro avg       0.98      0.98      0.98       171
-  weighted avg       0.98      0.98      0.98       171
-  
-  AUC Score: 0.9980893592004703
+    Model: Logistic Regression
+    Confusion Matrix:
+    [[ 62   1]
+     [  2 106]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.97      0.98      0.98        63
+               1       0.99      0.98      0.99       108
+    
+        accuracy                           0.98       171
+       macro avg       0.98      0.98      0.98       171
+    weighted avg       0.98      0.98      0.98       171
+    
+    AUC Score: 0.9980893592004703
 
-  Logistic regression had a precision of 0.97, a recall of 0.98, and an F1-Score of 0.98.
+Logistic regression had a precision of 0.97, a recall of 0.98, and an F1-Score of 0.98.
 
-  ## K-Nearest Neighbors
+## K-Nearest Neighbors
 
-  K-Nearest Neighbors is a supervised classification algorithm that makes predictions based on the majority class of its k-nearest neighbors.
+K-Nearest Neighbors is a supervised classification algorithm that makes predictions based on the majority class of its k-nearest neighbors.
 
-  Results from the notebook:
+Results from the notebook:
 
-  Model: K-Nearest Neighbors
-  Confusion Matrix:
-  [[ 59   4]
-   [  3 105]]
-  Classification Report:
-                precision    recall  f1-score   support
-  
-             0       0.95      0.94      0.94        63
-             1       0.96      0.97      0.97       108
-  
-      accuracy                           0.96       171
-     macro avg       0.96      0.95      0.96       171
-  weighted avg       0.96      0.96      0.96       171
-  
-  AUC Score: 0.9776601998824221
+    Model: K-Nearest Neighbors
+    Confusion Matrix:
+    [[ 59   4]
+    [  3 105]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.95      0.94      0.94        63
+               1       0.96      0.97      0.97       108
+    
+        accuracy                           0.96       171
+       macro avg       0.96      0.95      0.96       171
+    weighted avg       0.96      0.96      0.96       171
+    
+    AUC Score: 0.9776601998824221
 
-  K-Nearest Negihbors had a precision of 0.95, a recall of 0.94, and an F1-Score of 0.94.
+K-Nearest Negihbors had a precision of 0.95, a recall of 0.94, and an F1-Score of 0.94.
 
 ## Support Vector Machine(SVM)
 
-  SVMs are a binary multiclassification algorithm that finds a hyperplane the maximizes the margin between classes. It handles both linear and non-linear classification through kernels.
+SVMs are a binary multiclassification algorithm that finds a hyperplane the maximizes the margin between classes. It handles both linear and non-linear classification through kernels.
 
-  Results from the notebook: 
+Results from the notebook: 
 
-  Model: Support Vector Machine
-Confusion Matrix:
-[[ 61   2]
- [  3 105]]
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.95      0.97      0.96        63
-           1       0.98      0.97      0.98       108
-
-    accuracy                           0.97       171
-   macro avg       0.97      0.97      0.97       171
-weighted avg       0.97      0.97      0.97       171
-
-AUC Score: 0.9964726631393297
+    Model: Support Vector Machine
+    Confusion Matrix:
+    [[ 61   2]
+     [  3 105]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.95      0.97      0.96        63
+               1       0.98      0.97      0.98       108
+    
+        accuracy                           0.97       171
+       macro avg       0.97      0.97      0.97       171
+    weighted avg       0.97      0.97      0.97       171
+    
+    AUC Score: 0.9964726631393297
 
 The SVM had a precision of 0.95, a recall of 0.97, and an F1-Score of 0.96.
 
@@ -86,21 +83,21 @@ Decision Tree Classifiers utilize a tree-like structure with nodes (feature test
 
 Results from notebook:
 
-Model: Decision Tree
-Confusion Matrix:
-[[ 60   3]
- [  8 100]]
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.88      0.95      0.92        63
-           1       0.97      0.93      0.95       108
-
-    accuracy                           0.94       171
-   macro avg       0.93      0.94      0.93       171
-weighted avg       0.94      0.94      0.94       171
-
-AUC Score: 0.9391534391534391
+    Model: Support Vector Machine
+    Confusion Matrix:
+    [[ 61   2]
+     [  3 105]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.95      0.97      0.96        63
+               1       0.98      0.97      0.98       108
+    
+        accuracy                           0.97       171
+       macro avg       0.97      0.97      0.97       171
+    weighted avg       0.97      0.97      0.97       171
+    
+    AUC Score: 0.9964726631393297
 
 The decision tree classifier had a precision of 0.88, a recall of 0.93, and am F1-Score of 0.92.
 
@@ -110,21 +107,21 @@ Random Forest Classifiers is an ensemble learning method that combines the predi
 
 Results from the notebook:
 
-Model: Random Forest
-Confusion Matrix:
-[[ 60   3]
- [  2 106]]
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.97      0.95      0.96        63
-           1       0.97      0.98      0.98       108
-
-    accuracy                           0.97       171
-   macro avg       0.97      0.97      0.97       171
-weighted avg       0.97      0.97      0.97       171
-
-AUC Score: 0.9963256907701352
+    Model: Random Forest
+    Confusion Matrix:
+    [[ 60   3]
+     [  2 106]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.97      0.95      0.96        63
+               1       0.97      0.98      0.98       108
+    
+        accuracy                           0.97       171
+       macro avg       0.97      0.97      0.97       171
+    weighted avg       0.97      0.97      0.97       171
+    
+    AUC Score: 0.9963256907701352
 
 The random forest classifier had a precision of 0.97, a recall of 0.95, and an F1-Score of 0.96.
 
@@ -134,21 +131,21 @@ The Gradient Boosting Classifier is a machine learning model that builds multipl
 
 Results from the notebook:
 
-Model: Gradient Boosting
-Confusion Matrix:
-[[ 59   4]
- [  3 105]]
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.95      0.94      0.94        63
-           1       0.96      0.97      0.97       108
-
-    accuracy                           0.96       171
-   macro avg       0.96      0.95      0.96       171
-weighted avg       0.96      0.96      0.96       171
-
-AUC Score: 0.9957378012933569
+    Model: Gradient Boosting
+    Confusion Matrix:
+    [[ 59   4]
+     [  3 105]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.95      0.94      0.94        63
+               1       0.96      0.97      0.97       108
+    
+        accuracy                           0.96       171
+       macro avg       0.96      0.95      0.96       171
+    weighted avg       0.96      0.96      0.96       171
+    
+    AUC Score: 0.9957378012933569
 
 Gradient boosting had a precision of 0.95, a recall of 0.94, and an F1-Score of 0.94.
 
@@ -158,23 +155,21 @@ The Naive Bayes model is a probabilistic classfication algorithm based on Baye's
 
 Results from the notebook:
 
-Model: Naive Bayes
-Confusion Matrix:
-[[ 57   6]
- [  5 103]]
-
-
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.92      0.90      0.91        63
-           1       0.94      0.95      0.95       108
-
-    accuracy                           0.94       171
-   macro avg       0.93      0.93      0.93       171
-weighted avg       0.94      0.94      0.94       171
-
-AUC Score: 0.9926513815402704
+    Model: Naive Bayes
+    Confusion Matrix:
+    [[ 57   6]
+     [  5 103]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.92      0.90      0.91        63
+               1       0.94      0.95      0.95       108
+    
+        accuracy                           0.94       171
+       macro avg       0.93      0.93      0.93       171
+    weighted avg       0.94      0.94      0.94       171
+    
+    AUC Score: 0.9926513815402704
 
 The Naive Bayes model had a precision of 0.92, a recall of 0.90, and an F1-Score of 0.91.
 
@@ -184,23 +179,21 @@ A neural network is a deep learning model composed of interconnected layers of n
 
 Results from notebook:
 
-Model: Neural Network (MLP Classifier)
-Confusion Matrix:
-[[ 61   2]
- [  2 106]]
-
-
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.97      0.97      0.97        63
-           1       0.98      0.98      0.98       108
-
-    accuracy                           0.98       171
-   macro avg       0.97      0.97      0.97       171
-weighted avg       0.98      0.98      0.98       171
-
-AUC Score: 0.9966196355085244
+    Model: Neural Network (MLP Classifier)
+    Confusion Matrix:
+    [[ 61   2]
+     [  2 106]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.97      0.97      0.97        63
+               1       0.98      0.98      0.98       108
+    
+        accuracy                           0.98       171
+       macro avg       0.97      0.97      0.97       171
+    weighted avg       0.98      0.98      0.98       171
+    
+    AUC Score: 0.9966196355085244
 
 The neural network had a precision of 0.97, a recall of 0.97, and an F1-score of 0.97.
 
@@ -209,21 +202,22 @@ The neural network had a precision of 0.97, a recall of 0.97, and an F1-score of
 AdaBoost classifiers are ensemble learning models that combine multiple weak learners to make a strong one (typically shallow decision trees).
 
 Resutls from notebook:
-Model: AdaBoost
-Confusion Matrix:
-[[ 61   2]
- [  2 106]]
-Classification Report:
-              precision    recall  f1-score   support
 
-           0       0.97      0.97      0.97        63
-           1       0.98      0.98      0.98       108
-
-    accuracy                           0.98       171
-   macro avg       0.97      0.97      0.97       171
-weighted avg       0.98      0.98      0.98       171
-
-AUC Score: 0.9961787184009406
+    Model: AdaBoost
+    Confusion Matrix:
+    [[ 61   2]
+     [  2 106]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.97      0.97      0.97        63
+               1       0.98      0.98      0.98       108
+    
+        accuracy                           0.98       171
+       macro avg       0.97      0.97      0.97       171
+    weighted avg       0.98      0.98      0.98       171
+    
+    AUC Score: 0.9961787184009406
 
 ##XGBoost
 
@@ -231,21 +225,21 @@ The XGBoost classifier is an optimized gradient boosting library that is especia
 
 Results from notebook:
 
-Model: XGBoost
-Confusion Matrix:
-[[ 61   2]
- [  3 105]]
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.95      0.97      0.96        63
-           1       0.98      0.97      0.98       108
-
-    accuracy                           0.97       171
-   macro avg       0.97      0.97      0.97       171
-weighted avg       0.97      0.97      0.97       171
-
-AUC Score: 0.9944150499706055
+    Model: XGBoost
+    Confusion Matrix:
+    [[ 61   2]
+     [  3 105]]
+    Classification Report:
+                  precision    recall  f1-score   support
+    
+               0       0.95      0.97      0.96        63
+               1       0.98      0.97      0.98       108
+    
+        accuracy                           0.97       171
+       macro avg       0.97      0.97      0.97       171
+    weighted avg       0.97      0.97      0.97       171
+    
+    AUC Score: 0.9944150499706055
 
 XGBoost has a precision of 0.95, recall of 0.97, and F1-Score of 0.96.
 
