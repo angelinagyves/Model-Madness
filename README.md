@@ -1,4 +1,4 @@
-# Comparing 10 different machine learning models to find the best one for breast cancer calssification
+# Comparing 10 different machine learning models to find the best one for breast cancer classification
 
 ## To replicate:
 1. Download .ipynb file
