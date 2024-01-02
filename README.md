@@ -219,6 +219,8 @@ Resutls from notebook:
     
     AUC Score: 0.9961787184009406
 
+AdaBoost had a precision of 0.97, recall of 0.97, and an F1 score of 0.97.
+
 ## XGBoost
 
 The XGBoost classifier is an optimized gradient boosting library that is especially known for speed, efficiency and performance.
@@ -243,8 +245,23 @@ Results from notebook:
 
 XGBoost has a precision of 0.95, recall of 0.97, and F1-Score of 0.96.
 
- ## Final Rankings for Precision
+## Final Rankings for Precision
+1. Logistic Regression, Random Forest Classifier, Neural Network, AdaBoost- 0.97
 
- ## Final Rankings for Recall
+All 4 of these models performed at a precision accuracy of 97%.
 
- ## Final Rankings for F1-Score
+## Final Rankings for Recall
+1. Logistic Regression- 0.98
+2. Support Vector Machine, Neural Network, AdaBoost, XGBoost- 0.97
+
+Logistic Regression performed at a recall accuracy of 98%, and SVMs, MLP, AdaBoost, and XGBoost had an accuracy of 97%.
+
+## Final Rankings for F1-Score
+1. Logistic Regression- 0.98
+2. Neural Network, AdaBoost- 0.97
+
+Logistic Regression had the best F1-Score predicition with an accuracy of 98%, and MLP and AdaBoost had the second best F1-Score preicition with an accuracy of 97%.
+
+## Conclusion
+
+Overall, taking into account precision, recall, and F1-Score accuracies, logistic regression seems to be the highest performing model for breast cancer classificaiton. The neural network as well as AdaBoost also performed at nearly the same accuracy.
